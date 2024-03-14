@@ -1,4 +1,4 @@
-# 과적차량 자동 감지 시스템
+# ☑ 과적차량 자동 감지 시스템
 
 ## 📌 시스템 개요
 * 도로의 CCTV로 과적차량을 탐지하고 해당 차량 사진 저장 및 번호판을 인식하는 시스템
@@ -19,8 +19,9 @@
   * 대형/중형/소형 + 화물/트럭
   * JSON -> txt
 
+<hr>
 
-# 설치 및 사용방법
+# ☑ 설치 및 사용방법
 ```
 $ git clone .
 ```
@@ -60,34 +61,35 @@ $ pip install requirements.txt
   $ pip install paddlepaddle, paddleocr
   ``` 
 
+<hr>
 
 # ☑ Skills
 ### Language
-<div align="center">
+<div align="left">
     <img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white" />
 </div>
 
 ### AI
-<div align="center">
+<div align="left">
     <img src="https://img.shields.io/badge/Opencv-5C3EE8?style=flat&logo=opencv&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
 </div>
 
 ### Front-End
-<div align="center">
+<div align="left">
     <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/css3-1572B6?style=flat&logo=css&logoColor=white" />
 </div>
 
 ### Back-End
-<div align="center">
+<div align="left">
     <img src="https://img.shields.io/badge/fastapi-009688?style=flat&logo=fastapi&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/jinja-B41717?style=flat&logo=jinja2&logoColor=white" />
 </div>
 
 ### Tools
-<div align="center">
+<div align="left">
     <img src="https://img.shields.io/badge/git-F05032?style=flat&logo=git&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/slack-4A154B?style=flat&logo=slack&logoColor=white" /> &nbsp&nbsp
