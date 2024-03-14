@@ -1,17 +1,20 @@
-# 도로 위 과적차량 자동 감지 시스템
+# 과적차량 자동 감지 시스템
 
-## ✯ 시스템 개요
-* 도로의 CCTV를 이용하여 과적차량(트럭)을 탐지하여 과적차량의 사진 및 번호판을 인식하는 AI
-* Ultralytics의 YOLOv5s모델을 사용하여 과적차량의 분석 및 탐지에 도움을 주는 서비스
-* 기존 CCTV의 역활을 추가하여 제한속도 위반 뿐만 아니라 과적차량까지 탑지하여 도로 안전 개선을 위해 기획
+## 📌 시스템 개요
+* 도로의 CCTV로 과적차량을 탐지하고 해당 차량 사진 저장 및 번호판을 인식하는 시스템
+* Ultralytics의 YOLOv5s모델을 사용하여 과적차량의 탐지 및 분석에 도움을 주는 서비스
+* 기존 과속 단속 기능에 추가로 과적차량까지 탐지하여 도로 안전 개선을 위해 기획
 
-## ☑ 프로젝트 개발 과정
-* 최종 프로젝트에 사용할 모델을 테스트하기 위해 YOLOv8n 과 YOLOv5, YOLOv5s, YOLOv5s6, YOLOv5l6등 많은 모델 테스트 결과 YOLOv5s를 이용하여 사용하기를 결정
-* 이미지 및 라벨링 데이터 정제화
-* YOLO 라벨링 변환 및 데이터 전처리
+## 💡 프로젝트 개발 과정
+* 데이터 수집(AIHub) 및 정제
+* 프로젝트에 사용할 사전학습 모델을 선정하기 위해 YOLOv5, YOLOv5s, YOLOv5s6, YOLOv5l6등 많은 모델을 테스트
+  * YOLOv5s를 사용
+* 결과 후처리
+* 서버 및 UI 제작
 
-## ☑ 사용한 데이터
+## 📚 사용한 데이터
 * [AIHUB 과적차량 도로 위험 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=530)
+* [AIHUB 자동차 차종/연식/번호판 인식용 영상 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=172)
 * 데이터 라벨링 변환 : Google Colab을 이용하여 필요한 라벨링만 추출 후 정제
 
 
