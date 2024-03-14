@@ -1,0 +1,57 @@
+main { width: 85%; margin: 0 auto; background-color: #fefefe; }
+h2 { color: white; font-size: 30px; }
+header { width: 100%; padding: 20px; font-size: 20px; background-color: #1A548F; }
+header h3 { color: wheat; margin-top: 15px; display: inline-block; }
+.header1 .upload-btn { padding: 5px 8px; background-color: #fefefe; border-radius: 10px;}
+.header1 .file-input { display: block; border: solid white 1px; background-color: white; margin-bottom: 10px;}
+.header1 h2 { display: inline-block; }
+.header1 { display: flex; justify-content: space-between; align-items: center;}
+.header1 .header-div { display: flex; flex-direction: column;}
+section { width: 100%; height: 100%; margin: 20px 0;}
+.title { font-size: 20px; border: solid #1A548F; border-bottom: none; background-color: #1A548F; color: white;}
+.title-box { display: flex; justify-content: space-between;}
+.section1 .realtime-wrap { display: flex; flex-direction: row; justify-content: space-between; }
+.section1 .realtime-wrap .img-box { width: 48.5%; height: 410px; border: solid #1A548F 5px; display: flex; flex-flow: nowrap column; justify-content: center; align-items: center; }
+.section1 #video { width: 100%; }
+.section1 .realtime-wrap .img-box #video { width: 100%;  height: 100%; }
+
+.section1 .realtime-wrap .cap-box { width: 48.5%; height: 410px; border: solid #1A548F 5px; overflow-y: scroll; }
+
+.section1 .cap-box #list-box { width: 90%; display: flex; flex-direction: row; flex-wrap: wrap; margin: auto;}
+.section1 .cap-box #list-box .img-mini-box { width: 30%; height: 120px; border: solid red 2px; margin: 1%; cursor: pointer; }
+
+.section1 .cap-box #list-box .img-mini-box:hover { background-color: lightgray; }
+.section1 .cap-box img { width: 100%; height: 100%; }
+.section2 .detail-wrap { display: flex; border: solid #1A548F 5px; }
+.section2 .subimg-box { width: 50%; height: 200px; border-right: solid #1A548F 2px; display: flex; flex-direction: row; justify-content: space-between; padding: 20px; }
+
+.section2 .subimg-box .img-box2 {display: inline-block; width: 50%; border: solid #1A548F 1px; }
+
+.section2 .subimg-box .plate {display: inline-block; width: 100%; height: 80px; border: solid #1A548F 1px; }
+
+.section2 .log_box { display: flex; align-items: center; width: 100%; padding: 20px; }
+
+.section2 .log-box ul { padding: 15px; font-size: 20px; }
+
+.section2 .log-box ul li+li { margin-top: 10px; }
+
+.section2 .plate-wrap {width: 50%; display: flex; flex-direction: column;}
+.section2 .plate-text { display: flex; align-items: center; width: 100%; height: 50%; justify-content: center;}
+.section2 #plate_box { font-size: 30px;}
+/* 공유 반응형 */
+/* 나중에 규격 맞춰야함 -> 거의 맞춤 */
+@media screen and (max-width:312px) {
+    html, body{font-size: 40%;}
+}
+@media screen and (min-width:312px) and (max-width:420px){
+    html, body{font-size: 50%;}
+}
+@media screen and (min-width:420px) and (max-width:512px){
+    html, body{font-size: 60%;}
+}
+@media screen and (min-width:512px) and (max-width:768px){
+    html, body{font-size: 70%;}
+}
+@media screen and (min-width:768px){
+    html, body{font-size: 80%;}
+}

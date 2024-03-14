@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <script src="../js/index.js"></script>
+    <script src="../js/cap.js"></script>
+</head>
+<body>
+    <main>
+        <!-- 실시간 감지화면 영역 -->
+        <header class="header1">
+            <h2>실시간 감지화면</h2>
+            <div class="header-div">
+                <input type="file" id="videoInput" class="file-input">
+                <button type="button" onclick="uploadVideo(event)" class="upload-btn">업로드</button>    
+            </div>
+        </header>
+        <section class="section1">
+            <div class="title-box">
+                <div class="title">Video</div>
+                <div class="title">Detected</div>
+            </div>
+            <div class="realtime-wrap">
+                <!-- 영상 출력 영역-->
+                <div class="img-box">
+                    <img id="video"></img> 
+                </div>
+                <!-- 캡쳐 확인 영역 -->
+                <div class="cap-box">
+                    <ul id="list-box">
+                        <!-- 캡쳐 이미지 띄워질 영역 -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- 상세 기록 확인 영역 --> 
+        <header class="header2"> 
+            <h2>상세 기록 확인</h2>   
+        </header>
+        <section class="section2">
+            <div class="title-box">
+                <div class="title">detail</div>
+            </div>
+            <div class="detail-wrap">
+                <!-- 이미지 출력 영역 --> 
+                <div class="subimg-box">
+                    <div class="img-box2">
+                        <img src="" alt="" id="sub-img">
+                    </div>
+
+                    <div class="plate-wrap">
+                        <div class="plate">
+                            <img src="" alt="" id="plate">
+                        </div>
+                        <div class="plate-text">
+                            <div id="plate_box">example</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+                <!-- 로그 출력 영역 -->
+                <ul class="log-box">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
